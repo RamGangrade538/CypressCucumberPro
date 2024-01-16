@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Donate on Save the Children website",
+    "line": 1,
+    "id": "donate-on-save-the-children-website",
+    "tags": [],
+    "uri": "Donate.feature",
+    "elements": [
+      {
+        "id": "donate-on-save-the-children-website;make-a-donation-with-gift-aid-via-direct-debit",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Make a donation with Gift Aid via direct debit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user on the Save the Children website",
+            "result": {
+              "status": "passed",
+              "duration": 5394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user click on Donate",
+            "result": {
+              "status": "passed",
+              "duration": 6538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user click on donate now",
+            "result": {
+              "status": "passed",
+              "duration": 884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user click on Donate via direct debit",
+            "result": {
+              "status": "passed",
+              "duration": 5251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user continue with the donation amount",
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user add Gift Aid with the TV Ad option",
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enter mandatory address and billing details",
+            "result": {
+              "status": "passed",
+              "duration": 9408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user click on Continue",
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user should see a confirmation message",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
