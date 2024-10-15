@@ -7,8 +7,8 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber());
       // Other setup options can be added here
     },
-    specPattern: 'CypressCucumberPro/cypress/e2e/features/*.feature',  // Adjusted path
-    supportFile: 'CypressCucumberPro/cypress/support/e2e.js',  // Path to support file
+    specPattern: 'CypressCucumberPro/cypress/e2e/features/*.feature', 
+    supportFile: 'CypressCucumberPro/cypress/support/e2e.js',  
     // "nonGlobalStepDefinitions": true,
     // "stepDefinitions": "CypressCucumberPro/cypress/e2e/stepDefinitions",
   },
