@@ -22,7 +22,7 @@
             "name": "user on the Save the Children website",
             "result": {
               "status": "passed",
-              "duration": 3163000000
+              "duration": 3649000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "user click on Donate",
             "result": {
               "status": "passed",
-              "duration": 1290000000
+              "duration": 2002000000
             }
           },
           {
@@ -42,8 +42,8 @@
             "name": "user click on donate now",
             "result": {
               "status": "failed",
-              "duration": 4028000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `li.amount button[data-btn-index='0']:eq(1)`, but never found it.\n    at Object.clickDonatenowButton (CypressCucumberPro/cypress/e2e/PageObject/donatepage.js:31:42)\n    at Context.eval (CypressCucumberPro/cypress/e2e/stepDefinitions/Donate.js:17:13)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "duration": 4058000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `li.amount button[data-btn-index='0']:eq(1)`, but never found it.\n    at Object.clickDonatenowButton (CypressCucumberPro/cypress/e2e/PageObject/donatepage.js:31:42)\n    at Context.eval (CypressCucumberPro/cypress/e2e/stepDefinitions/Donate.js:16:13)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
