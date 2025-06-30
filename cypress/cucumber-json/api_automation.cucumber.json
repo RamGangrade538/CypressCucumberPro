@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Employee Data API Tests",
+    "line": 1,
+    "id": "employee-data-api-tests",
+    "tags": [],
+    "uri": "api_automation.feature",
+    "elements": [
+      {
+        "id": "employee-data-api-tests;create,-select,-update,-and-delete-employee",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create, Select, Update, and Delete Employee",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is able to open Website",
+            "result": {
+              "status": "passed",
+              "duration": 7159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User Create the Employee Data",
+            "result": {
+              "status": "passed",
+              "duration": 1624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Select the Employee Data",
+            "result": {
+              "status": "passed",
+              "duration": 1237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User Update the Employee Data",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User Delete the Employee Data",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
